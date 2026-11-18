@@ -1,6 +1,6 @@
 cask "elyterminal" do
-  version "0.2.5"
-  sha256 "ce559ea9980edcca1cf915de755487385ecff13d549f4c93c2cc1966cefc66fb"
+  version "0.2.6"
+  sha256 "80195e8e68852af79753c5c4c9eb2a2e18213c256db5892aec5d5cf8243f1cdc"
 
   url "https://github.com/ELY-Open-Source/ELYTerminal/releases/download/v#{version}/ELYTerminal-#{version}.dmg"
   name "ELYTerminal"
@@ -12,6 +12,7 @@ cask "elyterminal" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on :macos
 
