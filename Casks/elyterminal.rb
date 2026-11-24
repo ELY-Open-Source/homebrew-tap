@@ -1,6 +1,6 @@
 cask "elyterminal" do
-  version "0.2.6"
-  sha256 "80195e8e68852af79753c5c4c9eb2a2e18213c256db5892aec5d5cf8243f1cdc"
+  version "0.2.7"
+  sha256 "5243867ef8382aabe534b4545a387b4aef9b79be07dfe2135adb86923d9231a7"
 
   url "https://github.com/ELY-Open-Source/ELYTerminal/releases/download/v#{version}/ELYTerminal-#{version}.dmg"
   name "ELYTerminal"
